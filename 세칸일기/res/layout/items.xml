@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="일기 제목"
+        android:layout_marginLeft="10dp"
+        android:textColor="#1D1D1D"
+        android:textStyle="bold"
+        android:fontFamily="@font/poetic"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poetic"
+        android:text="날짜"
+        android:textSize="10sp"/>
+
+
+</FrameLayout>
